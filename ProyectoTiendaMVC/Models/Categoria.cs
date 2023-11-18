@@ -5,7 +5,5 @@
         Electronico,
         Libreria, 
         Limpieza
-        
-
     }
 }
