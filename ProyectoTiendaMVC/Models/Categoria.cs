@@ -2,6 +2,7 @@
 {
     public enum Categoria
     {
+
         Electronico,
         Libreria, 
         Limpieza
