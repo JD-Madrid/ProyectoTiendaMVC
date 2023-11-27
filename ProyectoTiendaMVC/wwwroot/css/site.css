@@ -1,18 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: grey;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.text-center {
+    font-family: 'Pacifico', cursive;
+    margin: 250px;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: grey;
+    border-radius: 8px;
+ }
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333; 
+    text-decoration: none;
+}
+
+.navbar-brand img {
+     margin-right: 10px; 
+     height: 30px; 
+}
+
+
+
+
+
+/* **************************************************** */
+/* Diseño a la vista de la pagina INDEX de PRODUCTOS */
+/* **************************************************** */
+.pagina-index-producto {
+    text-align: center;
+    background-color: grey;
+}
+
+.pagina-index-producto h1 {
+     color: white;
+     margin-bottom: 24px;
+}
+
+.pagina-index-producto a {
+    color: black;
+    background-color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.pagina-index-producto table {
+    color: white;
+}
+
+/* **************************************************** */
+/* Diseño a la vista de la pagina CREATE de PRODUCTOS */
+/* **************************************************** */
+.pagina-create-producto {
+    background-color: grey;
+    color: white;
+}
+
+.pagina-create-producto #volver{
+    background-color: white;
+    color: white;
+    width: 70px; 
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.pagina-create-producto #volver:hover {
+     background-color: black;
+     color: white;
+}
+
+
+/* **************************************************** */
+/* Diseño a la vista de la pagina EDITAR de PRODUCTOS */
+/* **************************************************** */
+.pagina-editar-producto {
+    background-color: grey;
+    color: white;
+}
+
+.pagina-editar-producto #volver{
+    background-color: white;
+    color: white;
+    width: 150px; 
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.pagina-editar-producto #volver:hover{
+    background-color: black; 
+    color:white;
+}
+
+
+/* **************************************************** */
+/* Diseño a la vista de la pagina DETALLES de PRODUCTOS */
+/* **************************************************** */
+.pagina-detalles-producto {
+    background-color: grey;
+    color: white;
+}
+
+.pagina-detalles-producto #volver {
+    background-color: white;
+    color: white;
+    width: 200px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+.pagina-detalles-producto #volver:hover {
+     background-color: black;
+     color: white;
+}
+
+/* **************************************************** */
+/* Diseño a la vista de la pagina DELETE de PRODUCTOS */
+/* **************************************************** */
+.pagina-delete-producto {
+    background-color: grey;
+    color: white;
+}
+
+.pagina-delete-producto #volver {
+     background-color: white;
+     color: white;
+     width: 150px;
+     border-radius: 3px;
+     text-align: center;
+     margin-top: 5px;
+     padding: 8px;
+}
+
+    .pagina-delete-producto #volver:hover {
+        background-color: black;
+        color: white;
+    }
